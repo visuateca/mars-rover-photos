@@ -3,7 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  apiDataPath: "https://api.nasa.gov/mars-photos/api/v1/rovers",
+	apiManifestPath: "https://api.nasa.gov/mars-photos/api/v1/manifests",
+	apiKey: "DEMO_KEY"
 };
 
 /*
